@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel de Descargas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            border-left: 5px solid #38bdf8;
+            padding-left: 10px;
+        }
+
+        .download-card {
+            background: #020617;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 15px;
+            box-shadow: 0 0 10px #000;
+        }
+
+        .download-card h3 {
+            margin-top: 0;
+        }
+
+        .download-card p {
+            color: #cbd5f5;
+        }
+
+        .btns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        button {
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .download {
+            background: #22c55e;
+        }
+
+        .whatsapp { background: #25D366; }
+        .telegram { background: #229ED9; }
+        .discord { background: #5865F2; }
+        .instagram { background: #E1306C; }
+        .copy { background: #64748b; }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    🚀 Mi Página de Descargas
+</header>
+
+<div class="container">
+
+    <!-- SECCIÓN -->
+    <div class="section">
+        <h2>📦 Recursos</h2>
+
+        <!-- PANEL DE DESCARGA -->
+        <div class="download-card">
+            <h3>TweakslogOn</h3>
+            <p>Es un programa que se utiliza para poder tener fondos de bloqueo personalizados para windows 7</p>
+
+            <div class="btns">
+                <button class="download" onclick="window.open('https://www.mediafire.com/file/u8v48v1rv1fuvps/tweakslogon.rar/file')">
+                    ⬇ Descargar
+                </button>
+
+                <button class="whatsapp" onclick="shareWhatsApp('https://www.mediafire.com/file/u8v48v1rv1fuvps/tweakslogon.rar/file')">
+                    WhatsApp
+                </button>
+
+                <button class="telegram" onclick="shareTelegram('https://www.mediafire.com/file/u8v48v1rv1fuvps/tweakslogon.rar/file')">
+                    Telegram
+                </button>
+
+                <button class="discord" onclick="shareDiscord('https://www.mediafire.com/file/u8v48v1rv1fuvps/tweakslogon.rar/file')">
+                    Discord
+                </button>
+
+                <button class="instagram" onclick="copyLink('https://www.mediafire.com/file/u8v48v1rv1fuvps/tweakslogon.rar/file')">
+                    Instagram
+                </button>
+
+                <button class="copy" onclick="copyLink('https://www.mediafire.com/file/u8v48v1rv1fuvps/tweakslogon.rar/file')">
+                    Copiar Link
+                </button>
+            </div>
+        </div>
+
+ <div class="download-card">
+            <h3>Wallpaper Engine</h3>
+            <p>Este programa se usa para poder tener fondos de pantalla animados en windows 7/8/10/11</p>
+
+            <div class="btns">
+                <button class="download" onclick="window.open('https://www.mediafire.com/file/vqdxkovg11ptvyf/Wallpaper_Engine.rar/file')">
+                    ⬇ Descargar
+                </button>
+
+                <button class="whatsapp" onclick="shareWhatsApp('https://www.mediafire.com/file/vqdxkovg11ptvyf/Wallpaper_Engine.rar/file')">
+                    WhatsApp
+                </button>
+
+                <button class="telegram" onclick="shareTelegram('https://www.mediafire.com/file/vqdxkovg11ptvyf/Wallpaper_Engine.rar/file')">
+                    Telegram
+                </button>
+
+                <button class="discord" onclick="shareDiscord('https://www.mediafire.com/file/vqdxkovg11ptvyf/Wallpaper_Engine.rar/file')">
+                    Discord
+                </button>
+
+                <button class="instagram" onclick="copyLink('https://www.mediafire.com/file/vqdxkovg11ptvyf/Wallpaper_Engine.rar/file')">
+                    Instagram
+                </button>
+
+                <button class="copy" onclick="copyLink('https://www.mediafire.com/file/vqdxkovg11ptvyf/Wallpaper_Engine.rar/file')">
+                    Copiar Link
+                </button>
+            </div>
+        </div>
+		 <div class="download-card">
+            <h3>Pack de Ejemplo</h3>
+            <p>Descripción del archivo que estás compartiendo.</p>
+
+            <div class="btns">
+                <button class="download" onclick="window.open('https://example.com/archivo.zip')">
+                    ⬇ Descargar
+                </button>
+
+                <button class="whatsapp" onclick="shareWhatsApp('https://example.com/archivo.zip')">
+                    WhatsApp
+                </button>
+
+                <button class="telegram" onclick="shareTelegram('https://example.com/archivo.zip')">
+                    Telegram
+                </button>
+
+                <button class="discord" onclick="shareDiscord('https://example.com/archivo.zip')">
+                    Discord
+                </button>
+
+                <button class="instagram" onclick="copyLink('https://example.com/archivo.zip')">
+                    Instagram
+                </button>
+
+                <button class="copy" onclick="copyLink('https://example.com/archivo.zip')">
+                    Copiar Link
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 - Hecho para GitHub Pages Y diseñado por elomegapro300
+</footer>
+
+<script>
+    function shareWhatsApp(link) {
+        window.open(`https://wa.me/?text=${encodeURIComponent(link)}`, '_blank');
+    }
+
+    function shareTelegram(link) {
+        window.open(`https://t.me/share/url?url=${encodeURIComponent(link)}`, '_blank');
+    }
+
+    function shareDiscord(link) {
+        copyLink(link);
+        alert("Link copiado. Pegalo en Discord.");
+    }
+
+    function copyLink(link) {
+        navigator.clipboard.writeText(link);
+        alert("Link copiado al portapapeles");
+    }
+</script>
+
+</body>
+</html>
